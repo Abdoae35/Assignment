@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F+VEODwPUU4VK+P8UBReyhK8MwZCrvFtr95ZuLnoK0U=",
+  "Source": "BlockedCountries.API",
+  "BasePath": "_content/BlockedCountries.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

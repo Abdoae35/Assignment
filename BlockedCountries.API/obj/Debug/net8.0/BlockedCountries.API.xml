@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlockedCountries.API</name>
+    </assembly>
+    <members>
+        <member name="T:BlockedCountries.API.Controllers.BlockController">
+            <summary>
+            Manages country-level blocking and temporary blocking.
+            </summary>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.BlockController.Blocked(System.Int32,System.Int32)">
+            <summary>
+            Gets a paginated list of blocked countries.
+            </summary>
+            <param name="page">Page number (default is 1).</param>
+            <param name="pageSize">Page size (default is 10).</param>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.BlockController.Block(System.String)">
+            <summary>
+            Adds a country to the blocked list.
+            </summary>
+            <param name="countryCode">Country code to block (e.g., "US").</param>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.BlockController.RemoveBlock(System.String)">
+            <summary>
+            Removes a country from the blocked list.
+            </summary>
+            <param name="countryCode">Country code to unblock.</param>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.BlockController.TempBlock(System.String,System.Int32)">
+            <summary>
+            Temporarily blocks a country for a given duration.
+            </summary>
+            <param name="countryCode">Country code (2-letter ISO format).</param>
+            <param name="durationMinutes">Duration in minutes (1-1440).</param>
+        </member>
+        <member name="T:BlockedCountries.API.Controllers.IpLookupController">
+            <summary>
+            Handles IP-related services such as lookup and block-checking.
+            </summary>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.IpLookupController.Lookup(System.String)">
+            <summary>
+            Finds the country information for a given IP address.
+            </summary>
+            <param name="ipAddress">Optional IP address. If omitted, uses the caller's IP.</param>
+            <returns>Country details like code, name, and ISP.</returns>
+        </member>
+        <member name="M:BlockedCountries.API.Controllers.IpLookupController.IsIpBlock">
+            <summary>
+            Verifies if the caller's IP belongs to a blocked country.
+            </summary>
+            <returns>Returns true if blocked; logs the attempt.</returns>
+        </member>
+    </members>
+</doc>

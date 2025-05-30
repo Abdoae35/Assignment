@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountries.API", "BlockedCountries.API\BlockedCountries.API.csproj", "{088CD5AA-F128-4984-BD35-ABED4727D3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockedCountries.BLL", "BlockedCountries.BLL\BlockedCountries.BLL.csproj", "{590E4562-E391-4562-98F5-E6600E4DA990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088CD5AA-F128-4984-BD35-ABED4727D3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088CD5AA-F128-4984-BD35-ABED4727D3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088CD5AA-F128-4984-BD35-ABED4727D3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088CD5AA-F128-4984-BD35-ABED4727D3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590E4562-E391-4562-98F5-E6600E4DA990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590E4562-E391-4562-98F5-E6600E4DA990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590E4562-E391-4562-98F5-E6600E4DA990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590E4562-E391-4562-98F5-E6600E4DA990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

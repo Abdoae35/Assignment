@@ -1,0 +1,11 @@
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/bin/Debug/net8.0/BlockedCountries.BLL.deps.json
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/bin/Debug/net8.0/BlockedCountries.BLL.dll
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/bin/Debug/net8.0/BlockedCountries.BLL.pdb
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.AssemblyInfoInputs.cache
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.AssemblyInfo.cs
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.csproj.CoreCompileInputs.cache
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.dll
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/refint/BlockedCountries.BLL.dll
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/BlockedCountries.BLL.pdb
+/Users/macbookpro/RiderProjects/BlockedCountries/BlockedCountries.BLL/obj/Debug/net8.0/ref/BlockedCountries.BLL.dll
